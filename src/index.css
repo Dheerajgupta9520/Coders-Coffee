@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+
+.img-shadow{
+    filter: drop-shadow(40px 50px 25px #0f1115)
+}
+
+.img-shadow2{
+    filter: drop-shadow(10px 30px 15px #3030307a)
+}
+
+.input-style{
+    border: 1px solid #dad4d4;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+
+.primary-btn{
+    background-color: #ff6b6b;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    @apply hover:bg-orange-600 cursor-pointer duration-200
+}
