@@ -1,6 +1,6 @@
 import React from 'react'
 import {  animate, motion, stagger } from 'framer-motion'
-import Coffee1 from '../../assets/coffee/Coffee1.png'
+import Coffee1 from '../../assets/coffee/coffee1.png'
 import Coffee3 from '../../assets/coffee/coffee3.png'
 
 
