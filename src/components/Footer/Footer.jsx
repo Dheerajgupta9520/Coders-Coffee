@@ -16,9 +16,9 @@ const Footer = () => {
           
           className="space-y-6">
             <h1 className="text-2xl font-bold lg:text-start text-center uppercase">Coders Cafe</h1>
-            <p className="text-sm max-w-[300px]">
+            <p className="lg:text-sm text-xs max-w-[300px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit amet , adipisicing elit.
+              ipsum dolor sit amet  adipisicing elit.
             </p>
             <div className="space-y-2">
               <p className="flex items-center gap-3">

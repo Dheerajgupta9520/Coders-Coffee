@@ -77,7 +77,7 @@ const Services = () => {
             stiffness: 100,
         }}
 
-        className='text-3xl font-bold text-gray-700'>
+        className='lg:text-3xl text-2xl font-bold text-gray-700'>
             Fresh and <span className='text-orange-400'>Tasty Coffees</span> 
         </motion.h1>
         <motion.p 
@@ -96,7 +96,7 @@ const Services = () => {
           delay: 0.4,
           stiffness: 100,
       }} 
-        className='text-gray-600 text-sm opacity-50'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ad neque non et natus repellendus quia excepturi nisi impedit eaque architecto.</motion.p>
+        className='text-gray-600 lg:text-sm text-xs opacity-50'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ad neque non et natus repellendus quia excepturi nisi impedit eaque architecto.</motion.p>
        </div>
       <motion.div 
       variants={containerVarients}
@@ -115,14 +115,12 @@ const Services = () => {
             key={service.id}
             className='text-center rounded-lg  p-4 space-y-6'>
               <motion.img 
-              initial={{rotate:0}}
-              whileInView={{rotate:360}}
               transition={{duration:.5, delay:.2, ease:"linear" }}
               whileHover={{scale:1.1}} 
               className='img-shadow2 mx-auto max-w-[200px] cursor-pointer' src={service.image} alt="" />
               <div className='space-y-2'>
-                <h1 className='text-2xl font-bold text-orange-400'>{service.title}</h1>
-                <p className='text-gray-600'>{service.subtitle}</p>
+                <h1 className='lg:text-2xl text-xl font-bold text-orange-400'>{service.title}</h1>
+                <p className='text-gray-600 text-xs lg:textsm'>{service.subtitle}</p>
               </div>
             </motion.div>
           )

@@ -56,7 +56,7 @@ const AppBanner = () => {
                 delay: 0.2,
                 stiffness: 100,
               }}
-              className="text-3xl font-bold text-center sm:teaxt-4xl"
+              className="lg:text-3xl text-xl font-bold text-center sm:teaxt-4xl"
             >
               Download Our App
             </motion.h1>
@@ -75,10 +75,10 @@ const AppBanner = () => {
                 delay: 0.3,
                 stiffness: 100,
               }}
-              className="text-center sm:px-20"
+              className="text-center text-sm lg:text-lg sm:px-20 pl-30 "
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              .
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              
             </motion.p>
 
             <div className="flex justify-center gap-4 items-center">
@@ -99,7 +99,7 @@ const AppBanner = () => {
                     delay: 0.4,
                     stiffness: 100,
                   }}
-                  className=" max-w-[150px] sm:max-w-[120px] md:max-w-[200px] "
+                  className=" max-w-[120px] sm:max-w-[120px] md:max-w-[200px] "
                   src={PlayStoreImg}
                   alt=""
                 />
@@ -121,7 +121,7 @@ const AppBanner = () => {
                     delay: 0.5,
                     stiffness: 100,
                   }}
-                  className=" max-w-[150px] sm:max-w-[120px] md:max-w-[200px] "
+                  className=" max-w-[120px] sm:max-w-[120px] md:max-w-[200px] "
                   src={AppStoreImg}
                   alt=""
                 />

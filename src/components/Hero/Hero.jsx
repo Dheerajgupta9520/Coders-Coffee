@@ -40,7 +40,7 @@ const Hero = () => {
                   delay: 0.8,
                   stiffness: 100,
                 }}
-                className="lg:text-7xl text-4xl leading-tight font-bold ml-14"
+                className="lg:text-7xl text-3xl leading-tight font-bold ml-14"
               >
                 Blvck Tumbler
               </motion.h1>
@@ -63,12 +63,11 @@ const Hero = () => {
                 className="relative"
               >
                 <div className="relative z-10 space-y-4">
-                  <h1 className="text-2xl ">Black Lifestyle Lovers</h1>
-                  <h1 className="text-sm opacity-55 leading-loose">
+                  <h1 className="lg:text-2xl text-xl ">Black Lifestyle Lovers</h1>
+                  <h1 className="lg:text-sm text-xs opacity-55 leading-loose">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quibusdam cum ex pariatur delectus quisquam veritatis?
-                    Sequi, voluptas, omnis repudiandae a molestiae labore modi
-                    dignissimos quidem
+                    Sequi, voluptas, 
                   </h1>
                 </div>
                 <div className="absolute -top-6 -left-5 w-[250px] h-[160px] bg-gray-700/25"></div>
@@ -161,8 +160,8 @@ const Hero = () => {
                 className="relative"
               >
                 <div className="relative z-10 space-y-4">
-                  <h1 className="text-2xl ">Blvck Tumbler </h1>
-                  <h1 className="text-sm opacity-55 leading-loose">
+                  <h1 className="lg:text-2xl text-xl ">Blvck Tumbler </h1>
+                  <h1 className="lg:text-sm text-xs opacity-55 leading-loose">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quibusdam cum ex pariatur delectus quisquam veritatis?
                   </h1>
@@ -189,7 +188,7 @@ const Hero = () => {
               delay: 0.1,
               stiffness: 100,
             }}
-            className=" absolute top-0 right-0 w-[80px] h-full bg-gradient-to-b from-orange-400/70 to-orange-600/70 backdrop-blur-sm z-10"
+            className=" fixed top-0 right-0 w-[80px] h-full bg-gradient-to-b from-orange-400/70 to-orange-600/70 backdrop-blur-sm z-10"
           >
             <div className="w-full h-full flex items-center justify-center">
               <div className="text-white flex flex-col justify-center items-center  gap-6">

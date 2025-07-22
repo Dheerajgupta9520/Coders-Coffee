@@ -24,7 +24,7 @@ const WhereToBuy = () => {
                 delay: 0.2,
                 stiffness: 100,
               }}
-              className="text-4xl font-bold text-gray-900 font-serif"
+              className="lg:text-4xl text-2xl text-center font-bold text-gray-900 font-serif"
             >
               Buy Our products From Anywhere
             </motion.h1>
