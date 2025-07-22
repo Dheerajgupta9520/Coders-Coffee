@@ -37,7 +37,7 @@ const AppBanner = () => {
         
 
         style={BannerStyle}
-        className="sm:min-h-[400px] sm:flex sm:justify-end sm:items-center rounded-xl"
+        className="sm:min-h-[500px] sm:flex sm:justify-end sm:items-center rounded-xl"
       >
         <div>
           <div className="space-y-4 max-w-xl mx-auto">
