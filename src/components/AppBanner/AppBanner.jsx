@@ -21,11 +21,10 @@ const AppBanner = () => {
         initial={{
           opacity: 0,
           x: 50,
-          y: 50,
+          
         }}
         whileInView={{
           opacity: 1,
-          y: 0,
           x: 0,
         }}
         transition={{
@@ -99,7 +98,7 @@ const AppBanner = () => {
                     delay: 0.4,
                     stiffness: 100,
                   }}
-                  className=" max-w-[120px] md:max-w-[200px] "
+                  className=" h-10 max-w-[120px]  "
                   src={PlayStoreImg}
                   alt=""
                 />
@@ -121,7 +120,7 @@ const AppBanner = () => {
                     delay: 0.5,
                     stiffness: 100,
                   }}
-                  className=" max-w-[120px] md:max-w-[200px] "
+                  className=" h-10 max-w-[120px] "
                   src={AppStoreImg}
                   alt=""
                 />
