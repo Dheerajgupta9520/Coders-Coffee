@@ -99,7 +99,7 @@ const AppBanner = () => {
                     delay: 0.4,
                     stiffness: 100,
                   }}
-                  className=" max-w-[120px] sm:max-w-[120px] md:max-w-[200px] "
+                  className=" max-w-[120px] md:max-w-[200px] "
                   src={PlayStoreImg}
                   alt=""
                 />
@@ -121,7 +121,7 @@ const AppBanner = () => {
                     delay: 0.5,
                     stiffness: 100,
                   }}
-                  className=" max-w-[120px] sm:max-w-[120px] md:max-w-[200px] "
+                  className=" max-w-[120px] md:max-w-[200px] "
                   src={AppStoreImg}
                   alt=""
                 />
